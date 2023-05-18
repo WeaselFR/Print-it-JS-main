@@ -129,10 +129,14 @@ updateSliderDots();
 // pour parcourir chaque image et masquer toutes les images sauf celle avec l'index imageIndex.
 
 // Comment j'ai défini le premier point comme actif :
-// Tout d'abord, j'ai sélectionné l'élément HTML de la liste à puces où je voulais ajouter les points de balle. Dans ce cas, j'ai sélectionné la liste à puces avec la classe "slider-dots" et j'ai stocké cette sélection dans une variable appelée "sliderDots".
-// J'ai créé une boucle qui a créé un élément "li" pour chaque image dans le slider, en utilisant la méthode "createElement" de JavaScript. J'ai stocké chaque élément "li" dans une variable appelée "dot".
+// Tout d'abord, j'ai sélectionné l'élément HTML de la liste à puces où je voulais ajouter les bullets points. 
+// Dans ce cas, j'ai sélectionné la liste à puces avec la classe "slider-dots" et j'ai stocké cette sélection dans une variable appelée "sliderDots".
+// J'ai créé une boucle qui a créé un élément "li" pour chaque image dans le slider, en utilisant la méthode "createElement" de JavaScript. 
+// J'ai stocké chaque élément "li" dans une variable appelée "dot".
 // J'ai ensuite ajouté une classe "slider-dot" à chaque élément "li" en utilisant la propriété "classList" de JavaScript.
 // J'ai ensuite utilisé la méthode "appendChild" pour ajouter chaque élément "li" créé à la liste à puces "sliderDots".
-// J'ai ajouté un événement "click" à chaque élément "li" en utilisant la méthode "addEventListener". À l'intérieur de la fonction de rappel de l'événement, j'ai mis à jour la variable "imageIndex" avec l'index de l'image correspondante.
-// Enfin, j'ai mis à jour la classe de l'élément "li" correspondant à l'image en cours de visualisation en utilisant la propriété "classList" de JavaScript. J'ai supprimé la classe "active" de tous les éléments "li" et j'ai ajouté la classe "active" uniquement à l'élément "li" correspondant à l'index de l'image en cours de visualisation.
-// Cela a créé les points de balle et a défini le premier point comme actif.
+// J'ai ajouté un événement "click" à chaque élément "li" en utilisant la méthode "addEventListener". 
+// À l'intérieur de la fonction de rappel de l'événement, j'ai mis à jour la variable "imageIndex" avec l'index de l'image correspondante.
+// Enfin, j'ai mis à jour la classe de l'élément "li" correspondant à l'image en cours de visualisation en utilisant la propriété "classList" de JavaScript. 
+// J'ai supprimé la classe "active" de tous les éléments "li" et j'ai ajouté la classe "active" uniquement à l'élément "li" correspondant à l'index de l'image en cours de visualisation.
+// Cela a créé les bullets points et a défini le premier point comme actif.
