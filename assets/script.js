@@ -140,3 +140,13 @@ updateSliderDots();
 // Enfin, j'ai mis à jour la classe de l'élément "li" correspondant à l'image en cours de visualisation en utilisant la propriété "classList" de JavaScript. 
 // J'ai supprimé la classe "active" de tous les éléments "li" et j'ai ajouté la classe "active" uniquement à l'élément "li" correspondant à l'index de l'image en cours de visualisation.
 // Cela a créé les bullets points et a défini le premier point comme actif.
+
+// DOM : modèle objet de document) est une interface de programmation pour les documents HTML, XML et SVG.
+// Var : est une fonction au même titre que let, pour déclarer des variables. N'EST PLUS UTILISER
+// Document.queryselector : permet de sélectionner la première balise de l'élement grâce à un sélecteur CSS
+// Document.queryselectorall : permet de selectionner toutes les balises de l'élément grâce aux selecteurs CSS.
+// ImageIndex : Compteur d'image , 0 étant la première image.
+// Const : pour constante est similaire à let, la différence est que l'on ne peut pas changer le contenu d'origine.
+// Slides : Tableau pour instaurer des images dans un slider js.
+// for each : La méthode forEach() permet d'exécuter une fonction donnée sur chaque élément du tableau
+// add event listener : addEventListener est la manière d'enregistrer un écouteur d'évènements telle que spécifiée dans le DOM
